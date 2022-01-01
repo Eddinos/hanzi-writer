@@ -1,14 +1,6 @@
 <script lang="ts">
-    import { PropType, ref, computed, onMounted, watch } from 'vue'
-    import { createWorker, PSM, OEM } from 'tesseract.js';
-    import Tesseract from 'tesseract.js';
+    import { PropType, ref, watch } from 'vue'
 
-    // const client = new vision.ImageAnnotatorClient()
-
-    const worker = createWorker({
-        logger: console.log,
-        langPath: 'https://raw.githubusercontent.com/naptha/tessdata/gh-pages/4.0.0_best'
-    });
     type Settings = {
         volume: number
     }
@@ -23,71 +15,36 @@
         },
         setup () {
             const element = ref()
-            const canvasSize = 800
+            const canvasSize = window.innerWidth - 24
             let ctx: CanvasRenderingContext2D
             let isPainting = false
             let elementPosition = { x:0, y:0 }
             const result = ref('')
             function startPainting (e) {
                 isPainting = true
+                const clientX = e.clientX || e.touches[0].clientX;
+                const clientY = e.clientY || e.touches[0].clientY;
                 ctx.beginPath()
-                ctx.moveTo(e.clientX - elementPosition.x, e.clientY - elementPosition.y)
-                // paint(e)
+                ctx.moveTo(clientX - elementPosition.x, clientY - elementPosition.y)
             }
 
             function endPainting () {
                 ctx.closePath()
                 isPainting = false
-                // context.beginPath()
             }
 
             function paint (e) {
                 if (!isPainting) return
 
-                // ctx.beginPath()
-                // ctx.moveTo(e.clientX - elementPosition.x, e.clientY - elementPosition.y)
-                ctx.lineTo(e.clientX - elementPosition.x, e.clientY - elementPosition.y)
+                const clientX = e.clientX || e.touches[0].clientX;
+                const clientY = e.clientY || e.touches[0].clientY;
+                ctx.lineTo(clientX - elementPosition.x, clientY - elementPosition.y)
                 ctx.stroke()
-                // ctx.closePath()
-
-                // context.lineTo(e.clientX - elementPosition.x, e.clientY - elementPosition.y)
-                // context.stroke()
-                // context.beginPath()
-                // context.moveTo(e.clientX - elementPosition.x, e.clientY - elementPosition.y)
             }
 
             function clear () {
                 ctx.clearRect(0, 0, element.value.width, element.value.height)
                 ctx.fillRect(0, 0, element.value.width, element.value.height)
-            }
-
-            async function recognize () {
-                const img = new Image()
-                img.src = element.value.toDataURL()
-
-                /*await worker.load()
-                await worker.loadLanguage('chi_sim')
-                await worker.initialize('chi_sim')
-                await worker.setParameters({
-                    tessedit_pageseg_mode: PSM.PSM_SINGLE_CHAR,
-                    tessedit_char_whitelist: '中国火人'
-                })
-                const res = await worker.recognize(img)
-                document.body.append(img)
-                console.log(res)
-                result.value = res.data.text*/
-
-                let visionRes = await fetch('https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAWCiWnDk6vP8uSpKMSGPOX_kaxnpEpiZc', {method: 'POST', body: JSON.stringify({requests: [{imageContext: {languageHints: ['zh-Hans', 'zh-Hant']}, features: [{type: 'DOCUMENT_TEXT_DETECTION'}], image: {content: img.src.replace('data:image/png;base64,', '')}}]})})
-                visionRes = await visionRes.json()
-                console.log({visionRes})
-                // Tesseract.recognize(
-                // img,
-                // 'chi_sim',
-                // { logger: m => console.log(m) }
-                // ).then(({ data: { text } }) => {
-                // console.log(text);
-                // })
-                // await worker.terminate()
             }
 
             watch(element, () => {
@@ -111,7 +68,6 @@
                 endPainting,
                 paint,
                 clear,
-                recognize,
                 result
             }
         }
@@ -119,17 +75,46 @@
 </script>
 
 <template>
-    <canvas ref="element"
-            :height="canvasSize"
-            :width="canvasSize"
-            @mousedown="startPainting"
-            @mouseup="endPainting"
-            @mousemove="paint" />
+    <div class="Canvas">
+        <canvas ref="element"
+                :height="canvasSize*1.2"
+                :width="canvasSize"
+                @touchstart="startPainting"
+                @touchend="endPainting"
+                @touchmove="paint"
+                @mousedown="startPainting"
+                @mouseup="endPainting"
+                @mousemove="paint" />
+        <button class="Canvas__close"
+                @click="clear">
+            <img src="../assets/cross.svg" alt="closeBtn">
+        </button>
+    </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
     canvas {
-        /* background-color: burlywood; */
         border: 1px solid black;
+    }
+
+    .Canvas {
+        position: relative;
+
+        &__close {
+            background-color: #7171f4;
+            border-radius: 50%;
+            border: none;
+            transform: rotateZ(45deg);
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            height: 48px;
+            width: 48px;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
     }
 </style>

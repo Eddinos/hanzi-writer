@@ -38,32 +38,41 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      width: 100%;
+      width: calc(100% - 12px);
+      padding: 0;
     }
 
     &__category {
       list-style: none;
-      max-width: 360px;
+      //max-width: 360px;
       margin-bottom: 24px;
+      width: 80%;
 
       a {
         text-decoration: none;
-        padding: 24px;
+        padding: 24px 0;
         display: inline-block;
         color: whitesmoke;
         position: relative;
         background-color: #42b983;
+        width: 100%;
+        font-size: 24px;
+        font-weight: bold;
 
         &::after {
           content: '';
           display: block;
           background-color: inherit;
-          width: 34%;
+          width: 24px;
           height: 100%;
           position: absolute;
           top: 0;
-          right: -17%;
+          right: -12px;
           transform: skew(-17deg);
+        }
+
+        &:hover {
+          background-color: #2AA05E;
         }
       }
     }
