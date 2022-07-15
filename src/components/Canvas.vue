@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { PropType, ref, watch } from 'vue'
+    import { PropType, ref, watch, nextTick } from 'vue'
 
     type Settings = {
         volume: number
@@ -20,6 +20,7 @@
             let isPainting = false
             let elementPosition = { x:0, y:0 }
             const result = ref('')
+
             function startPainting (e) {
                 isPainting = true
                 const clientX = e.clientX || e.touches[0].clientX;
@@ -45,14 +46,19 @@
             function clear () {
                 ctx.clearRect(0, 0, element.value.width, element.value.height)
                 ctx.fillRect(0, 0, element.value.width, element.value.height)
+                nextTick(setBrushPosition)
+            }
+
+            function setBrushPosition () {
+                const {x, y} = element.value.getBoundingClientRect()
+                elementPosition = { x, y }
+                console.log(elementPosition)
             }
 
             watch(element, () => {
                 if (element.value) {
                     ctx = element.value.getContext('2d')
-                    const {x, y} = element.value.getBoundingClientRect()
-                    elementPosition = { x, y }
-                    console.log(elementPosition)
+                    setBrushPosition()
                     ctx.lineWidth = 10
                     ctx.lineCap = "round"
                     ctx.strokeStyle = "#2c3e50"
@@ -99,6 +105,7 @@
 
     .Canvas {
         position: relative;
+        touch-action: none;
 
         &__close {
             background-color: #7171f4;

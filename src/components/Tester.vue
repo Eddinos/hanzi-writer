@@ -1,10 +1,11 @@
 <template>
-    <div class="Series" v-if="currentSerie === -1">
+    <div class="Series" v-if="currentSeries === -1">
         pick a serie
         <div v-for="(ResultSerie, index) in results"
-             class="Series__resultSerie" @click="currentSerie = index">
+             class="Series__resultSerie" @click="() => startSerie(index)">
             <span class="Series__number">#{{index+1}}</span>
-            <div v-for="result in ResultSerie" class="Series__result"></div>
+            <div v-for="result in ResultSerie" class="Series__result"
+                 :class="{'Series__result--correct': result}"></div>
         </div>
     </div>
 
@@ -38,19 +39,29 @@
 <script setup lang="ts">
     import { ref, onMounted, computed } from 'vue'
     import Canvas from './Canvas.vue'
-    import { annotateImg, getWords } from '../api';
+    import { annotateImg } from '../api'
+    import { useSeries } from '../composables'
 
     const canvas = ref(null)
-    let wordsToTest = ref([])
-    let currentSerie = ref(-1)
-    const series = ref([])
-    const results = ref([])
+
+    const {
+        wordsToTest,
+        series,
+        results,
+        getResults,
+        getSeries,
+        resetCurrentResults,
+        currentSeries,
+        addTestResult,
+        confirmCurrentResults
+    } = useSeries()
+
     const currentWordIndex = ref(0)
     const showHint = ref(false)
 
     const currentTest = computed(() => {
-        if (currentSerie.value < 0 || currentSerie.value > series.value.length) return {}
-        return wordsToTest.value[series.value[currentSerie.value][currentWordIndex.value]] || {}
+        if (currentSeries.value < 0 || currentSeries.value > series.value.length) return {}
+        return wordsToTest.value[series.value[currentSeries.value][currentWordIndex.value]] || {}
     })
 
     function clearCanvas () {
@@ -62,44 +73,44 @@
         const success = guess == currentTest.value.simp
         // if (guess == currentTest.value.simp) {
         //     alert('wow impressionnant')
-        clearCanvas()
-        if (currentWordIndex.value >= series.value[currentSerie.value].length - 1) {
-            alert('serie terminée')
-            console.log(results.value)
-        } else {
-            results.value[currentSerie.value][currentWordIndex.value] = success
+        // if (currentWordIndex.value >= series.value[currentSeries.value].length - 1) {
+        //     alert('serie terminée')
+        //     console.log(results.value)
+        //     currentSeries.value = -1
+        //     // const resultsEasy = JSON.parse(localStorage.getItem('results-easy'))
+        //     results.value[currentSeries.value] = localStorage.getItem('current-results').split(',').map(x => x.length ? JSON.parse(x) : Boolean(x))
+        //
+        //     localStorage.setItem('results-easy', results.value)
+        // } else {
+            addTestResult({
+                index: currentWordIndex.value,
+                success
+            })
             currentWordIndex.value += 1
-            console.log(success)
-        }
+
+            if (currentWordIndex.value > series.value[currentSeries.value].length - 1) {
+                alert('serie terminée')
+                currentSeries.value = -1
+                confirmCurrentResults('easy')
+            }
+        // }
+        clearCanvas()
 
         // }
     }
 
-    function shuffle(arr) {
-        let j, x, i;
-        for (i = arr.length - 1; i > 0; i--) {
-            j = Math.floor(Math.random() * (i + 1));
-            x = arr[i];
-            arr[i] = arr[j];
-            arr[j] = x;
-        }
-        return arr;
-    }
-
-    function displayHint () {
-        // showHint = true
+    function startSerie (index) {
+        currentSeries.value = index
+        // localStorage.setItem('current-results', results.value[currentSerie.value].map(x => null))
+        resetCurrentResults()
     }
 
     onMounted(async () => {
-        wordsToTest.value = await getWords('easy')
-        const splitIndexesInSeries = (acc, value, valueIdx) => {
-            const serieIndex = Math.floor(valueIdx/10)
-            if (!acc[serieIndex]) acc[serieIndex] = []
-            acc[serieIndex].push(value)
-            return acc
-        }
-        series.value = shuffle(wordsToTest.value.map((e,i) => i)).reduce(splitIndexesInSeries, [])
-        results.value = series.value.map(serie => serie.map(w => false))
+        // const { getSeries } = useSeries()
+        getSeries('easy')
+        const test = await getResults('easy')
+        console.log({test, series, results})
+        // localStorage.setItem('current-results', series)
     })
 </script>
 
@@ -126,6 +137,10 @@
             height: 12px;
             border: 2px solid;
             border-radius: 50%;
+
+            &--correct {
+                background-color: seagreen;
+            }
         }
 
         &__number {
