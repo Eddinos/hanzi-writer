@@ -50,9 +50,10 @@
             }
 
             function setBrushPosition () {
-                const {x, y} = element.value.getBoundingClientRect()
-                elementPosition = { x, y }
-                console.log(elementPosition)
+                if (element.value) {
+                    const {x, y} = element.value.getBoundingClientRect()
+                    elementPosition = { x, y }
+                }
             }
 
             watch(element, () => {

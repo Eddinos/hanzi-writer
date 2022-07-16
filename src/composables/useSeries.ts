@@ -8,9 +8,9 @@ const results = ref<any[][]>([])
 const currentResults = ref<TestState[]>([])
 const currentSeries = ref<number>(-1)
 
-enum TestState {
-    succeed,
+export enum TestState {
     failed,
+    succeed,
     todo
 }
 
@@ -38,7 +38,7 @@ export default function useSeries () {
         }
 
         const retrievedSeries = await getSeries({ complexity })
-        results.value = retrievedSeries.map(series => series.map(w => undefined))
+        results.value = retrievedSeries.map(series => series.map(w => TestState.todo))
         localStorage.setItem(`results-${complexity}`, JSON.stringify(results.value))
         return results.value
     }
@@ -59,6 +59,7 @@ export default function useSeries () {
     }
 
     function confirmCurrentResults (complexity: Complexity) {
+        debugger
         results.value[currentSeries.value] = currentResults.value
         localStorage.setItem(`results-${complexity}`, JSON.stringify(results.value))
     }

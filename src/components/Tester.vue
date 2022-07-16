@@ -4,8 +4,9 @@
         <div v-for="(ResultSerie, index) in results"
              class="Series__resultSerie" @click="() => startSerie(index)">
             <span class="Series__number">#{{index+1}}</span>
-            <div v-for="result in ResultSerie" class="Series__result"
-                 :class="{'Series__result--correct': result}"></div>
+            <div v-for="result in ResultSerie"
+                 class="Series__result"
+                 :class="{'Series__result--correct': result === 1}"></div>
         </div>
     </div>
 
@@ -41,6 +42,9 @@
     import Canvas from './Canvas.vue'
     import { annotateImg } from '../api'
     import { useSeries } from '../composables'
+    import { TestState } from '../composables/useSeries'
+
+    console.log({TestState})
 
     const canvas = ref(null)
 
@@ -90,8 +94,8 @@
 
             if (currentWordIndex.value > series.value[currentSeries.value].length - 1) {
                 alert('serie terminée')
-                currentSeries.value = -1
                 confirmCurrentResults('easy')
+                currentSeries.value = -1
             }
         // }
         clearCanvas()
