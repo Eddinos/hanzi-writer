@@ -59,7 +59,6 @@ export default function useSeries () {
     }
 
     function confirmCurrentResults (complexity: Complexity) {
-        debugger
         results.value[currentSeries.value] = currentResults.value
         localStorage.setItem(`results-${complexity}`, JSON.stringify(results.value))
     }
