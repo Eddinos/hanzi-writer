@@ -17,7 +17,8 @@
             <Canvas ref="canvas"
                     class="Tester__canvas"/>
             <transition name="fade"
-                        @after-enter="showHint = false">
+                        @after-enter="showHint = false"
+                        @after-leave="disableActions = false">
                 <div class="Tester__hint"
                      v-if="showHint">
                     {{ currentTest.simp }}
@@ -26,12 +27,13 @@
         </div>
 
         <button class="Tester__button Tester__button--submit"
+                :disabled="disableActions"
                 @click="recognize">
             Recognize
         </button>
         <button class="Tester__button Tester__button--hint"
-                @click="showHint = true"
-                @animationEnd="showHint = false">
+                :disabled="disableActions"
+                @click="displayHint">
             Hint
         </button>
     </div>
@@ -62,6 +64,12 @@
 
     const currentWordIndex = ref(0)
     const showHint = ref(false)
+    const disableActions = ref(false)
+
+    function displayHint () {
+        showHint.value = true
+        disableActions.value = true
+    }
 
     const currentTest = computed(() => {
         if (currentSeries.value < 0 || currentSeries.value > series.value.length) return {}
