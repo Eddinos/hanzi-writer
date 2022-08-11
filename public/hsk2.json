@@ -1,0 +1,1064 @@
+{
+  "data": [
+    {
+      "simp": "吧",
+      "trad": "吧",
+      "pinToneNb": "ba5",
+      "pinToneAccent": "ba",
+      "eng": "particle indicating polite suggestion; | onomatopoeia | bar (serving drinks, providing internet access, etc.)"
+    },
+    {
+      "simp": "白",
+      "trad": "白",
+      "pinToneNb": "bai2",
+      "pinToneAccent": "bái",
+      "eng": "white; snowy; pure; bright; empty (Kangxi radical 106)"
+    },
+    {
+      "simp": "百",
+      "trad": "百",
+      "pinToneNb": "bai3",
+      "pinToneAccent": "bǎi",
+      "eng": "hundred"
+    },
+    {
+      "simp": "帮助",
+      "trad": "幫助",
+      "pinToneNb": "bang1zhu4",
+      "pinToneAccent": "bāngzhù",
+      "eng": "help; assist; aid"
+    },
+    {
+      "simp": "报纸",
+      "trad": "報紙",
+      "pinToneNb": "bao4zhi3",
+      "pinToneAccent": "bàozhǐ",
+      "eng": "newspaper"
+    },
+    {
+      "simp": "比",
+      "trad": "比",
+      "pinToneNb": "bi3",
+      "pinToneAccent": "bǐ",
+      "eng": "compare; (indicates comparison) (Kangxi radical 81); to gesticulate as one talks"
+    },
+    {
+      "simp": "别",
+      "trad": "別",
+      "pinToneNb": "bie2",
+      "pinToneAccent": "bié",
+      "eng": "don't do something; don't | depart; | other; difference; distinguish"
+    },
+    {
+      "simp": "宾馆",
+      "trad": "賓館",
+      "pinToneNb": "bin1guan3",
+      "pinToneAccent": "bīnguǎn",
+      "eng": "guesthouse; hotel"
+    },
+    {
+      "simp": "长",
+      "trad": "長",
+      "pinToneNb": "chang2, zhang3",
+      "pinToneAccent": "cháng, zhǎng",
+      "eng": "long; length | grow; chief (Kangxi radical 168)"
+    },
+    {
+      "simp": "唱歌",
+      "trad": "唱歌",
+      "pinToneNb": "chang4ge1",
+      "pinToneAccent": "chànggē",
+      "eng": "sing (a song)"
+    },
+    {
+      "simp": "出",
+      "trad": "出",
+      "pinToneNb": "chu1",
+      "pinToneAccent": "chū",
+      "eng": "go out; occur"
+    },
+    {
+      "simp": "穿",
+      "trad": "穿",
+      "pinToneNb": "chuan1",
+      "pinToneAccent": "chuān",
+      "eng": "to wear; put on; penetrate"
+    },
+    {
+      "simp": "次",
+      "trad": "次",
+      "pinToneNb": "ci4",
+      "pinToneAccent": "cì",
+      "eng": "(mw for number of times of occurrence); nth; order"
+    },
+    {
+      "simp": "从",
+      "trad": "從",
+      "pinToneNb": "cong2",
+      "pinToneAccent": "cóng",
+      "eng": "from; obey; observe"
+    },
+    {
+      "simp": "错",
+      "trad": "錯",
+      "pinToneNb": "cuo4",
+      "pinToneAccent": "cuò",
+      "eng": "mistake; error; blunder; miss an opportunity"
+    },
+    {
+      "simp": "打篮球",
+      "trad": "打籃球",
+      "pinToneNb": "da3 lan2qiu2",
+      "pinToneAccent": "dǎ lánqiú",
+      "eng": "play basketball"
+    },
+    {
+      "simp": "大家",
+      "trad": "大家",
+      "pinToneNb": "da4jia1",
+      "pinToneAccent": "dàjiā",
+      "eng": "everyone"
+    },
+    {
+      "simp": "到",
+      "trad": "到",
+      "pinToneNb": "dao4",
+      "pinToneAccent": "dào",
+      "eng": "arrive (at a place); until (a time)"
+    },
+    {
+      "simp": "得",
+      "trad": "得",
+      "pinToneNb": "de5",
+      "pinToneAccent": "de",
+      "eng": "(complement particle)"
+    },
+    {
+      "simp": "等",
+      "trad": "等",
+      "pinToneNb": "deng3",
+      "pinToneAccent": "děng",
+      "eng": "to wait; rank; equal; etc."
+    },
+    {
+      "simp": "弟弟",
+      "trad": "弟弟",
+      "pinToneNb": "di4di5",
+      "pinToneAccent": "dìdi",
+      "eng": "younger brother"
+    },
+    {
+      "simp": "第一",
+      "trad": "第一",
+      "pinToneNb": "di4yi1",
+      "pinToneAccent": "dìyī",
+      "eng": "first; number 1"
+    },
+    {
+      "simp": "懂",
+      "trad": "懂",
+      "pinToneNb": "dong3",
+      "pinToneAccent": "dǒng",
+      "eng": "understand; know"
+    },
+    {
+      "simp": "对",
+      "trad": "對",
+      "pinToneNb": "dui4",
+      "pinToneAccent": "duì",
+      "eng": "correct; a pair; to face; be opposite; to; towards"
+    },
+    {
+      "simp": "房间",
+      "trad": "房間",
+      "pinToneNb": "fang2jian1",
+      "pinToneAccent": "fángjiān",
+      "eng": "room"
+    },
+    {
+      "simp": "非常",
+      "trad": "非常",
+      "pinToneNb": "fei1chang2",
+      "pinToneAccent": "fēicháng",
+      "eng": "extremely; extraordinary; very"
+    },
+    {
+      "simp": "服务员",
+      "trad": "服務員",
+      "pinToneNb": "fu2wu4yuan2",
+      "pinToneAccent": "fúwùyuán",
+      "eng": "waiter/waitress; server; attendant"
+    },
+    {
+      "simp": "高",
+      "trad": "高",
+      "pinToneNb": "gao1",
+      "pinToneAccent": "gāo",
+      "eng": "high; tall (Kangxi radical 189)"
+    },
+    {
+      "simp": "告诉",
+      "trad": "告訴",
+      "pinToneNb": "gao4su5",
+      "pinToneAccent": "gàosu",
+      "eng": "to tell; inform"
+    },
+    {
+      "simp": "哥哥",
+      "trad": "哥哥",
+      "pinToneNb": "ge1ge5",
+      "pinToneAccent": "gēge",
+      "eng": "older brother"
+    },
+    {
+      "simp": "给",
+      "trad": "給",
+      "pinToneNb": "gei3",
+      "pinToneAccent": "gěi",
+      "eng": "to give; to grant; (passive particle)"
+    },
+    {
+      "simp": "公共汽车",
+      "trad": "公共汽車",
+      "pinToneNb": "gong1gong4 qi4che1",
+      "pinToneAccent": "gōnggòng qìchē",
+      "eng": "(public) bus"
+    },
+    {
+      "simp": "公司",
+      "trad": "公司",
+      "pinToneNb": "gong1si1",
+      "pinToneAccent": "gōngsī",
+      "eng": "company; corporation"
+    },
+    {
+      "simp": "贵",
+      "trad": "貴",
+      "pinToneNb": "gui4",
+      "pinToneAccent": "guì",
+      "eng": "expensive; noble; honorable; Guizhou province (abbreviation)"
+    },
+    {
+      "simp": "过",
+      "trad": "過",
+      "pinToneNb": "guo4",
+      "pinToneAccent": "guò",
+      "eng": "to pass; to cross; go over; (indicates a past experience)"
+    },
+    {
+      "simp": "还",
+      "trad": "還",
+      "pinToneNb": "hai2",
+      "pinToneAccent": "hái",
+      "eng": "still; yet; in addition; even"
+    },
+    {
+      "simp": "孩子",
+      "trad": "孩子",
+      "pinToneNb": "hai2zi5",
+      "pinToneAccent": "háizi",
+      "eng": "child; children; son or daughter"
+    },
+    {
+      "simp": "好吃",
+      "trad": "好吃",
+      "pinToneNb": "hao3chi1",
+      "pinToneAccent": "hǎochī",
+      "eng": "tasty"
+    },
+    {
+      "simp": "黑",
+      "trad": "黑",
+      "pinToneNb": "hei1",
+      "pinToneAccent": "hēi",
+      "eng": "black; dark (Kangxi radical 203); Heilongjiang province (abbreviation)"
+    },
+    {
+      "simp": "红",
+      "trad": "紅",
+      "pinToneNb": "hong2",
+      "pinToneAccent": "hóng",
+      "eng": "red; symbol of success; bonus; popular"
+    },
+    {
+      "simp": "火车站",
+      "trad": "火車站",
+      "pinToneNb": "huo3che1zhan4",
+      "pinToneAccent": "huǒchēzhàn",
+      "eng": "train station"
+    },
+    {
+      "simp": "机场",
+      "trad": "機場",
+      "pinToneNb": "ji1chang3",
+      "pinToneAccent": "jīchǎng",
+      "eng": "airport; airfield"
+    },
+    {
+      "simp": "鸡蛋",
+      "trad": "雞蛋",
+      "pinToneNb": "ji1dan4",
+      "pinToneAccent": "jīdàn",
+      "eng": "(chicken) egg"
+    },
+    {
+      "simp": "件",
+      "trad": "件",
+      "pinToneNb": "jian4",
+      "pinToneAccent": "jiàn",
+      "eng": "(mw for things, clothes, and items)"
+    },
+    {
+      "simp": "教室",
+      "trad": "教室",
+      "pinToneNb": "jiao4shi4",
+      "pinToneAccent": "jiàoshì",
+      "eng": "classroom"
+    },
+    {
+      "simp": "姐姐",
+      "trad": "姐姐",
+      "pinToneNb": "jie3jie5",
+      "pinToneAccent": "jiějie",
+      "eng": "older sister"
+    },
+    {
+      "simp": "介绍",
+      "trad": "介紹",
+      "pinToneNb": "jie4shao4",
+      "pinToneAccent": "jièshào",
+      "eng": "to introduce; recommend; introduction"
+    },
+    {
+      "simp": "进",
+      "trad": "進",
+      "pinToneNb": "jin4",
+      "pinToneAccent": "jìn",
+      "eng": "enter; come in"
+    },
+    {
+      "simp": "近",
+      "trad": "近",
+      "pinToneNb": "jin4",
+      "pinToneAccent": "jìn",
+      "eng": "near; close (to)"
+    },
+    {
+      "simp": "就",
+      "trad": "就",
+      "pinToneNb": "jiu4",
+      "pinToneAccent": "jiù",
+      "eng": "then; at once; just; only; with regard to"
+    },
+    {
+      "simp": "觉得",
+      "trad": "覺得",
+      "pinToneNb": "jue2de5",
+      "pinToneAccent": "juéde",
+      "eng": "feel; think"
+    },
+    {
+      "simp": "咖啡",
+      "trad": "咖啡",
+      "pinToneNb": "ka1fei1",
+      "pinToneAccent": "kāfēi",
+      "eng": "coffee"
+    },
+    {
+      "simp": "开始",
+      "trad": "開始",
+      "pinToneNb": "kai1shi3",
+      "pinToneAccent": "kāishǐ",
+      "eng": "begin; to start; beginning"
+    },
+    {
+      "simp": "考试",
+      "trad": "考試",
+      "pinToneNb": "kao3shi4",
+      "pinToneAccent": "kǎoshì",
+      "eng": "test; exam; to give or take a test"
+    },
+    {
+      "simp": "可能",
+      "trad": "可能",
+      "pinToneNb": "ke3neng2",
+      "pinToneAccent": "kěnéng",
+      "eng": "possible; maybe"
+    },
+    {
+      "simp": "可以",
+      "trad": "可以",
+      "pinToneNb": "ke3yi3",
+      "pinToneAccent": "kěyǐ",
+      "eng": "can; may; possible; okay"
+    },
+    {
+      "simp": "课",
+      "trad": "課",
+      "pinToneNb": "ke4",
+      "pinToneAccent": "kè",
+      "eng": "class; subject; lesson; course"
+    },
+    {
+      "simp": "快",
+      "trad": "快",
+      "pinToneNb": "kuai4",
+      "pinToneAccent": "kuài",
+      "eng": "fast; quick; swift"
+    },
+    {
+      "simp": "快乐",
+      "trad": "快樂",
+      "pinToneNb": "kuai4le4",
+      "pinToneAccent": "kuàilè",
+      "eng": "happy"
+    },
+    {
+      "simp": "累",
+      "trad": "累",
+      "pinToneNb": "lei4",
+      "pinToneAccent": "lèi",
+      "eng": "tired"
+    },
+    {
+      "simp": "离",
+      "trad": "離",
+      "pinToneNb": "li2",
+      "pinToneAccent": "lí",
+      "eng": "leave; depart; go away; apart from"
+    },
+    {
+      "simp": "两",
+      "trad": "兩",
+      "pinToneNb": "liang3",
+      "pinToneAccent": "liǎng",
+      "eng": "two; 2; both; (unit of weight equal to 50 grams)"
+    },
+    {
+      "simp": "零",
+      "trad": "零",
+      "pinToneNb": "ling2",
+      "pinToneAccent": "líng",
+      "eng": "zero; remnant"
+    },
+    {
+      "simp": "路",
+      "trad": "路",
+      "pinToneNb": "lu4",
+      "pinToneAccent": "lù",
+      "eng": "road; path; journey; route"
+    },
+    {
+      "simp": "旅游",
+      "trad": "旅游",
+      "pinToneNb": "lv3you2",
+      "pinToneAccent": "lǚyóu",
+      "eng": "trip; journey; tour"
+    },
+    {
+      "simp": "卖",
+      "trad": "賣",
+      "pinToneNb": "mai4",
+      "pinToneAccent": "mài",
+      "eng": "to sell"
+    },
+    {
+      "simp": "慢",
+      "trad": "慢",
+      "pinToneNb": "man4",
+      "pinToneAccent": "màn",
+      "eng": "slow"
+    },
+    {
+      "simp": "忙",
+      "trad": "忙",
+      "pinToneNb": "mang2",
+      "pinToneAccent": "máng",
+      "eng": "busy"
+    },
+    {
+      "simp": "每",
+      "trad": "每",
+      "pinToneNb": "mei3",
+      "pinToneAccent": "měi",
+      "eng": "each; every"
+    },
+    {
+      "simp": "妹妹",
+      "trad": "妹妹",
+      "pinToneNb": "mei4mei5",
+      "pinToneAccent": "mèimei",
+      "eng": "younger sister"
+    },
+    {
+      "simp": "门",
+      "trad": "門",
+      "pinToneNb": "men2",
+      "pinToneAccent": "mén",
+      "eng": "door; opening; gate (Kangxi radical 169)"
+    },
+    {
+      "simp": "面条",
+      "trad": "面條",
+      "pinToneNb": "mian4tiao2",
+      "pinToneAccent": "miàntiáo",
+      "eng": "noodles"
+    },
+    {
+      "simp": "男",
+      "trad": "男",
+      "pinToneNb": "nan2",
+      "pinToneAccent": "nán",
+      "eng": "male"
+    },
+    {
+      "simp": "您",
+      "trad": "您",
+      "pinToneNb": "nin2",
+      "pinToneAccent": "nín",
+      "eng": "you (polite)"
+    },
+    {
+      "simp": "牛奶",
+      "trad": "牛奶",
+      "pinToneNb": "niu2nai3",
+      "pinToneAccent": "niúnǎi",
+      "eng": "cow's milk"
+    },
+    {
+      "simp": "女",
+      "trad": "女",
+      "pinToneNb": "nv3",
+      "pinToneAccent": "nǚ",
+      "eng": "woman; female (Kangxi radical 38)"
+    },
+    {
+      "simp": "旁边",
+      "trad": "旁邊",
+      "pinToneNb": "pang2bian1",
+      "pinToneAccent": "pángbiān",
+      "eng": "side, beside"
+    },
+    {
+      "simp": "跑步",
+      "trad": "跑步",
+      "pinToneNb": "pao3bu4",
+      "pinToneAccent": "pǎobù",
+      "eng": "to run; to jog"
+    },
+    {
+      "simp": "便宜",
+      "trad": "便宜",
+      "pinToneNb": "pian2yi5",
+      "pinToneAccent": "piányi",
+      "eng": "cheap"
+    },
+    {
+      "simp": "票",
+      "trad": "票",
+      "pinToneNb": "piao4",
+      "pinToneAccent": "piào",
+      "eng": "ticket; bank note; a vote"
+    },
+    {
+      "simp": "妻子",
+      "trad": "妻子",
+      "pinToneNb": "qi1zi5",
+      "pinToneAccent": "qīzi",
+      "eng": "wife"
+    },
+    {
+      "simp": "起床",
+      "trad": "起床",
+      "pinToneNb": "qi3chuang2",
+      "pinToneAccent": "qǐ chuáng",
+      "eng": "get out of bed"
+    },
+    {
+      "simp": "千",
+      "trad": "千",
+      "pinToneNb": "qian1",
+      "pinToneAccent": "qiān",
+      "eng": "one thousand"
+    },
+    {
+      "simp": "铅笔",
+      "trad": "鉛筆",
+      "pinToneNb": "qian1bi3",
+      "pinToneAccent": "qiānbǐ",
+      "eng": "pencil"
+    },
+    {
+      "simp": "晴",
+      "trad": "晴",
+      "pinToneNb": "qing2",
+      "pinToneAccent": "qíng",
+      "eng": "clear; fine (as of weather)"
+    },
+    {
+      "simp": "去年",
+      "trad": "去年",
+      "pinToneNb": "qu4nian2",
+      "pinToneAccent": "qùnián",
+      "eng": "last year"
+    },
+    {
+      "simp": "让",
+      "trad": "讓",
+      "pinToneNb": "rang4",
+      "pinToneAccent": "ràng",
+      "eng": "ask; let; yield"
+    },
+    {
+      "simp": "日",
+      "trad": "日",
+      "pinToneNb": "ri4",
+      "pinToneAccent": "rì",
+      "eng": "sun; day; date; time (Kangxi radical 72)"
+    },
+    {
+      "simp": "上班",
+      "trad": "上班",
+      "pinToneNb": "shang4ban1",
+      "pinToneAccent": "shàngbān",
+      "eng": "go to work; be on duty"
+    },
+    {
+      "simp": "身体",
+      "trad": "身體",
+      "pinToneNb": "shen1ti3",
+      "pinToneAccent": "shēntǐ",
+      "eng": "health; (human) body"
+    },
+    {
+      "simp": "生病",
+      "trad": "生病",
+      "pinToneNb": "sheng1bing4",
+      "pinToneAccent": "shēngbìng",
+      "eng": "get sick; fall ill"
+    },
+    {
+      "simp": "生日",
+      "trad": "生日",
+      "pinToneNb": "sheng1ri4",
+      "pinToneAccent": "shēngrì",
+      "eng": "birthday"
+    },
+    {
+      "simp": "时间",
+      "trad": "時間",
+      "pinToneNb": "shi2jian1",
+      "pinToneAccent": "shíjiān",
+      "eng": "time; period"
+    },
+    {
+      "simp": "事情",
+      "trad": "事情",
+      "pinToneNb": "shi4qing5",
+      "pinToneAccent": "shìqing",
+      "eng": "matter; affair; thing; business"
+    },
+    {
+      "simp": "手表",
+      "trad": "手表",
+      "pinToneNb": "shou3biao3",
+      "pinToneAccent": "shǒubiǎo",
+      "eng": "wristwatch"
+    },
+    {
+      "simp": "手机",
+      "trad": "手機",
+      "pinToneNb": "shou3ji1",
+      "pinToneAccent": "shǒujī",
+      "eng": "mobile (cell) phone"
+    },
+    {
+      "simp": "说话",
+      "trad": "說話",
+      "pinToneNb": "shuo1hua4",
+      "pinToneAccent": "shuōhuà",
+      "eng": "to talk; speak"
+    },
+    {
+      "simp": "送",
+      "trad": "送",
+      "pinToneNb": "song4",
+      "pinToneAccent": "sòng",
+      "eng": "deliver; to carry; to give; send"
+    },
+    {
+      "simp": "虽然",
+      "trad": "雖然",
+      "pinToneNb": "sui1ran2",
+      "pinToneAccent": "suīrán",
+      "eng": "although; even though"
+    },
+    {
+      "simp": "但是",
+      "trad": "但是",
+      "pinToneNb": "dan4shi4",
+      "pinToneAccent": "dànshì",
+      "eng": "but; however"
+    },
+    {
+      "simp": "它",
+      "trad": "它",
+      "pinToneNb": "ta1",
+      "pinToneAccent": "tā",
+      "eng": "it"
+    },
+    {
+      "simp": "踢足球",
+      "trad": "踢足球",
+      "pinToneNb": "ti1zu2qiu2",
+      "pinToneAccent": "tīzúqiú",
+      "eng": "to play football/soccer"
+    },
+    {
+      "simp": "题",
+      "trad": "題",
+      "pinToneNb": "ti2",
+      "pinToneAccent": "tí",
+      "eng": "topic; subject; question on a test or assignment"
+    },
+    {
+      "simp": "跳舞",
+      "trad": "跳舞",
+      "pinToneNb": "tiao4wu3",
+      "pinToneAccent": "tiàowǔ",
+      "eng": "to dance"
+    },
+    {
+      "simp": "外",
+      "trad": "外",
+      "pinToneNb": "wai4",
+      "pinToneAccent": "wài",
+      "eng": "outer; outside; in addition; foreign"
+    },
+    {
+      "simp": "完",
+      "trad": "完",
+      "pinToneNb": "wan2",
+      "pinToneAccent": "wán",
+      "eng": "to finish; be over; complete"
+    },
+    {
+      "simp": "玩",
+      "trad": "玩",
+      "pinToneNb": "wan2",
+      "pinToneAccent": "wán",
+      "eng": "to play; have a good time; visit; enjoy"
+    },
+    {
+      "simp": "晚上",
+      "trad": "晚上",
+      "pinToneNb": "wan3shang5",
+      "pinToneAccent": "wǎnshang",
+      "eng": "evening; night"
+    },
+    {
+      "simp": "往",
+      "trad": "往",
+      "pinToneNb": "wang3",
+      "pinToneAccent": "wǎng",
+      "eng": "to go (in a direction); towards; in the past"
+    },
+    {
+      "simp": "为什么",
+      "trad": "為什麼",
+      "pinToneNb": "wei4shen2me5",
+      "pinToneAccent": "wèishénme",
+      "eng": "why?; for what reason?"
+    },
+    {
+      "simp": "问",
+      "trad": "問",
+      "pinToneNb": "wen4",
+      "pinToneAccent": "wèn",
+      "eng": "ask; inquire"
+    },
+    {
+      "simp": "问题",
+      "trad": "問題",
+      "pinToneNb": "wen4ti2",
+      "pinToneAccent": "wèntí",
+      "eng": "question; problem"
+    },
+    {
+      "simp": "西瓜",
+      "trad": "西瓜",
+      "pinToneNb": "xi1gua1",
+      "pinToneAccent": "xīguā",
+      "eng": "watermelon"
+    },
+    {
+      "simp": "希望",
+      "trad": "希望",
+      "pinToneNb": "xi1wang4",
+      "pinToneAccent": "xīwàng",
+      "eng": "to hope; wish for; to desire"
+    },
+    {
+      "simp": "洗",
+      "trad": "洗",
+      "pinToneNb": "xi3",
+      "pinToneAccent": "xǐ",
+      "eng": "to wash; bathe"
+    },
+    {
+      "simp": "小时",
+      "trad": "小時",
+      "pinToneNb": "xiao3shi2",
+      "pinToneAccent": "xiǎoshí",
+      "eng": "hour"
+    },
+    {
+      "simp": "笑",
+      "trad": "笑",
+      "pinToneNb": "xiao4",
+      "pinToneAccent": "xiào",
+      "eng": "to laugh; to smile"
+    },
+    {
+      "simp": "新",
+      "trad": "新",
+      "pinToneNb": "xin1",
+      "pinToneAccent": "xīn",
+      "eng": "new; Xinjiang autonomous region (abbreviation)"
+    },
+    {
+      "simp": "姓",
+      "trad": "姓",
+      "pinToneNb": "xing4",
+      "pinToneAccent": "xìng",
+      "eng": "surname; family name"
+    },
+    {
+      "simp": "休息",
+      "trad": "休息",
+      "pinToneNb": "xiu1xi5",
+      "pinToneAccent": "xiūxi",
+      "eng": "to rest; take a break"
+    },
+    {
+      "simp": "雪",
+      "trad": "雪",
+      "pinToneNb": "xue3",
+      "pinToneAccent": "xuě",
+      "eng": "snow"
+    },
+    {
+      "simp": "颜色",
+      "trad": "顏色",
+      "pinToneNb": "yan2se4",
+      "pinToneAccent": "yánsè",
+      "eng": "color"
+    },
+    {
+      "simp": "眼睛",
+      "trad": "眼睛",
+      "pinToneNb": "yan3jing5",
+      "pinToneAccent": "yǎnjing",
+      "eng": "eye"
+    },
+    {
+      "simp": "羊肉",
+      "trad": "羊肉",
+      "pinToneNb": "yang2rou4",
+      "pinToneAccent": "yángròu",
+      "eng": "mutton; lamb"
+    },
+    {
+      "simp": "药",
+      "trad": "藥",
+      "pinToneNb": "yao4",
+      "pinToneAccent": "yào",
+      "eng": "medicine; drug; cure; chemical"
+    },
+    {
+      "simp": "要",
+      "trad": "要",
+      "pinToneNb": "yao4",
+      "pinToneAccent": "yào",
+      "eng": "to want; to need; will/shall; important"
+    },
+    {
+      "simp": "也",
+      "trad": "也",
+      "pinToneNb": "ye3",
+      "pinToneAccent": "yě",
+      "eng": "also; too"
+    },
+    {
+      "simp": "一起",
+      "trad": "一起",
+      "pinToneNb": "yi4qi3",
+      "pinToneAccent": "yìqǐ",
+      "eng": "together; in the same place"
+    },
+    {
+      "simp": "一下",
+      "trad": "一下",
+      "pinToneNb": "yi2xia4",
+      "pinToneAccent": "yíxià",
+      "eng": "a little bit/while; one time; once"
+    },
+    {
+      "simp": "已经",
+      "trad": "已經",
+      "pinToneNb": "yi3jing5",
+      "pinToneAccent": "yǐjing",
+      "eng": "already"
+    },
+    {
+      "simp": "意思",
+      "trad": "意思",
+      "pinToneNb": "yi4si5",
+      "pinToneAccent": "yìsi",
+      "eng": "meaning; idea; opinion"
+    },
+    {
+      "simp": "因为",
+      "trad": "因為",
+      "pinToneNb": "yin1wei4",
+      "pinToneAccent": "yīnwèi",
+      "eng": "because"
+    },
+    {
+      "simp": "所以",
+      "trad": "所以",
+      "pinToneNb": "suo3yi3",
+      "pinToneAccent": "suǒyǐ",
+      "eng": "so; therefore; as a result"
+    },
+    {
+      "simp": "阴",
+      "trad": "陰",
+      "pinToneNb": "yin1",
+      "pinToneAccent": "yīn",
+      "eng": "cloudy (weather); yin (the negative principle of Yin and Yang); secret; the moon; negative; shade"
+    },
+    {
+      "simp": "游泳",
+      "trad": "游泳",
+      "pinToneNb": "you2yong3",
+      "pinToneAccent": "yóuyǒng",
+      "eng": "to swim"
+    },
+    {
+      "simp": "右边",
+      "trad": "右邊",
+      "pinToneNb": "you4bian5",
+      "pinToneAccent": "yòubian",
+      "eng": "the right (as opposed to left) side"
+    },
+    {
+      "simp": "鱼",
+      "trad": "魚",
+      "pinToneNb": "yu2",
+      "pinToneAccent": "yú",
+      "eng": "fish (Kangxi radical 195)"
+    },
+    {
+      "simp": "远",
+      "trad": "遠",
+      "pinToneNb": "yuan3",
+      "pinToneAccent": "yuǎn",
+      "eng": "far; distant; remote"
+    },
+    {
+      "simp": "运动",
+      "trad": "運動",
+      "pinToneNb": "yun4dong4",
+      "pinToneAccent": "yùndòng",
+      "eng": "(physical) exercise; movement; sports; campaign"
+    },
+    {
+      "simp": "再",
+      "trad": "再",
+      "pinToneNb": "zai4",
+      "pinToneAccent": "zài",
+      "eng": "again; once more"
+    },
+    {
+      "simp": "早上",
+      "trad": "早上",
+      "pinToneNb": "zao3shang5",
+      "pinToneAccent": "zǎoshang",
+      "eng": "(early) morning"
+    },
+    {
+      "simp": "丈夫",
+      "trad": "丈夫",
+      "pinToneNb": "zhang4fu5",
+      "pinToneAccent": "zhàngfu",
+      "eng": "husband; man"
+    },
+    {
+      "simp": "找",
+      "trad": "找",
+      "pinToneNb": "zhao3",
+      "pinToneAccent": "zhǎo",
+      "eng": "try to find; look for; seek; to give change"
+    },
+    {
+      "simp": "着",
+      "trad": "著",
+      "pinToneNb": "zhe5",
+      "pinToneAccent": "zhe",
+      "eng": "-ing (indicating action in progress)"
+    },
+    {
+      "simp": "真",
+      "trad": "真",
+      "pinToneNb": "zhen1",
+      "pinToneAccent": "zhēn",
+      "eng": "real; true; genuine"
+    },
+    {
+      "simp": "正在",
+      "trad": "正在",
+      "pinToneNb": "zheng4zai4",
+      "pinToneAccent": "zhèngzài",
+      "eng": "in the process of (doing something); currently"
+    },
+    {
+      "simp": "知道",
+      "trad": "知道",
+      "pinToneNb": "zhi1dao5",
+      "pinToneAccent": "zhīdao",
+      "eng": "know; be aware of"
+    },
+    {
+      "simp": "准备",
+      "trad": "准備",
+      "pinToneNb": "zhun3bei4",
+      "pinToneAccent": "zhǔnbèi",
+      "eng": "prepare; get ready"
+    },
+    {
+      "simp": "走",
+      "trad": "走",
+      "pinToneNb": "zou3",
+      "pinToneAccent": "zǒu",
+      "eng": "to walk; to go; to move (Kangxi radical 156)"
+    },
+    {
+      "simp": "最",
+      "trad": "最",
+      "pinToneNb": "zui4",
+      "pinToneAccent": "zuì",
+      "eng": "the most; -est; (indicator for superlative)"
+    },
+    {
+      "simp": "左边",
+      "trad": "左邊",
+      "pinToneNb": "zuo3bian5",
+      "pinToneAccent": "zuǒbian",
+      "eng": "the left side; the left"
+    },
+    {
+      "simp": ""
+    }
+  ]
+}
